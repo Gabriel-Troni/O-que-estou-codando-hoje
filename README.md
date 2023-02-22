@@ -1,7 +1,7 @@
 <h1 align="center"> Agregador de Links </h1>
 
 <p align="center">
-Projeto feito com a ajuda da Rocketseat <br/>
+Projeto personalizado com temática da Anya Forger feito com a ajuda da Rocketseat <br/>
 <a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
 </p>
 
