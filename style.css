@@ -82,6 +82,7 @@ body * {
     transform: translateY(-50%);
     position: absolute;
     z-index: 1;
+    animation: slide-out 0.4s;
 }
 
 #switch span {
@@ -94,7 +95,11 @@ body * {
 }
 
 .light #switch button {
-    right: 0;
+    animation: slide-in  0.4s forwards;
+}
+
+#switch button:hover {
+    outline: 8px solid var(--icon-bg-color);
 }
 
 .menu ul {
@@ -160,5 +165,23 @@ footer {
 
     .light {
         --bg-url: url(./assets/background-desktop-light-mode.png)
+    }
+}
+
+@keyframes slide-in {
+    from {
+        left: 0;
+    }
+    to {
+        left: 50%;
+    }
+}
+
+@keyframes slide-out {
+    from {
+        left: 50%;
+    }
+    to {
+        left: 0;
     }
 }
