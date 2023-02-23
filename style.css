@@ -6,7 +6,7 @@
 
 :root {
     --text-color: white;
-    --bg-url: url(./assets/background.png);
+    --bg-url: url(./assets/background-mobile-dark-mode.png);
     --stroke-color: rgba(255, 255, 255, 0.5);
     --surface-color: rgba(255, 255, 255, 0.1);
     --stroke-color-hover: rgba(255, 255, 255, 1);
@@ -17,7 +17,7 @@
 
 .light {
     --text-color: black;
-    --bg-url: url(./assets/light-background.png);
+    --bg-url: url(./assets/background-mobile-light-mode.png);
     --stroke-color: rgba(0, 0, 0, 0.05);
     --surface-color: rgba(0, 0, 0, 0.05);
     --stroke-color-hover:#000000;
@@ -151,4 +151,14 @@ body * {
 footer {
     padding: 0px 24px;
     text-align: center;
+}
+
+@media (min-width: 700px) {
+    :root {
+        --bg-url: url(./assets/background-desktop-dark-mode.png)
+    }
+
+    .light {
+        --bg-url: url(./assets/background-desktop-light-mode.png)
+    }
 }
