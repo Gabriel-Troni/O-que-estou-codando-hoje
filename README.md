@@ -14,8 +14,8 @@ A link aggregator developed for a web environment.
 
 ## Screenshots
 <div style="display: flex;">
-  <img src="./assets/imagens/mobileSreen.png" alt="Mobile screen" style="width: 20%;">
-  <img src="./assets/imagens/mainScreen.png" alt="Main screen" style="width: 70%;">
+  <img src="./assets/mobileScreen.png" alt="Mobile screen" style="width: 20%;">
+  <img src="./assets/mainScreen.png" alt="Main screen" style="width: 70%;">
 </div>
 
 ## Acknowledgements
